@@ -8,6 +8,13 @@ export class Header extends Component {
         <div className="logo">
             <img src={logo} alt="logo" />
         </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">New</a>
+            <a href="#">Popular</a>
+            <a href="#">Trending</a>
+            <a href="#">Categories</a>
+        </nav>
       </header>
     )
   }
